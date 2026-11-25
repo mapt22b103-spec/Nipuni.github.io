@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Pack Creator – Custom Party Pack Design & Ordering Studio (Sri Lanka)</title>
+    
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                <i class="fa-solid fa-gift"></i> Party Pack Creator
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#occasions">Occasions</a></li>
+                <li><a href="#builder">Customize Pack</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#orders">My Orders</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#builder" class="btn btn-gold"><i class="fa-solid fa-wand-magic-sparkles"></i> Studio Builder</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <span class="badge"><i class="fa-solid fa-award"></i> Premier Custom Event Favor Studio in Sri Lanka</span>
+            <h1>Craft Unforgettable Celebrations with Custom Party Packs</h1>
+            <p>Design luxury favor boxes, select handcrafted treats & keepsake charms, calculate exact guest quantities, and preview your custom party pack in real time with islandwide delivery across Sri Lanka.</p>
+            <div class="hero-buttons">
+                <a href="#builder" class="btn btn-gold"><i class="fa-solid fa-box-open"></i> Start Designing</a>
+                <a href="#occasions" class="btn btn-outline">Explore Occasions</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80" alt="Pastel Party Favor Boxes Sri Lanka">
+            <div class="hero-badge-floating">
+                <i class="fa-solid fa-truck-fast" style="font-size:1.5rem; color:var(--gold);"></i>
+                <div>
+                    <strong style="display:block; font-size:0.88rem;">Islandwide Delivery</strong>
+                    <small style="color:var(--light-text);">Colombo & All Districts in Sri Lanka</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Platform Features -->
+    <section class="features-section">
+        <h2 class="section-title">Boutique Studio Capabilities</h2>
+        <p class="section-subtitle">Empowering event hosts across Sri Lanka with creative freedom, budget precision, and transparent pricing</p>
+        
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-layer-group"></i></div>
+                <h3>6 Curated Occasions</h3>
+                <p>Curate tailored pack styles for Birthdays, Weddings, Baby Showers, Graduations, Corporate Events, and Anniversaries.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-calculator"></i></div>
+                <h3>Guest Count Calculator</h3>
+                <p>Auto-calculates required box quantities and optional buffer packs to eliminate guest miscounts.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-piggy-bank"></i></div>
+                <h3>Budget-Based Builder</h3>
+                <p>Input your total target budget in Sri Lankan Rupees (Rs.) to auto-fit matching item and box configurations.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon"><i class="fa-solid fa-eye"></i></div>
+                <h3>Real-Time Live Preview</h3>
+                <p>Inspect box colors, satin ribbons, and custom calligraphy tags in real time as you customize.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- All 6 Curated Occasions Showcase -->
+    <section class="occasions-section" id="occasions">
+        <h2 class="section-title">Milestone Occasions</h2>
+        <p class="section-subtitle">Choose from our 6 signature celebration themes, complete with pre-configured items and custom styling</p>
+
+        <div class="occasions-grid">
+            
+            <!-- 1. Birthday Party -->
+            <div class="occasion-card">
+                <div class="occasion-art">
+                    <span class="tag-price">From Rs. 2,850 / pack</span>
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" fill="#FFF9F0"/>
+                        <path d="M30 65h40v15H30z" fill="#D4AF37"/>
+                        <path d="M35 48h30v17H35z" fill="#FAD0C4"/>
+                        <path d="M42 35h16v13H42z" fill="#FFD1DC"/>
+                        <path d="M49 22h2v13h-2z" fill="#D4AF37"/>
+                        <circle cx="50" cy="19" r="3" fill="#E8D5C4"/>
+                    </svg>
+                </div>
+                <div class="occasion-content">
+                    <div>
+                        <h3>Birthday Party</h3>
+                        <p>Vibrant pastel favor boxes filled with celebration treats and themed keepsakes for guests of all ages.</p>
+                        <ul class="occasion-items-list">
+                            <li><i class="fa-solid fa-check"></i> Gourmet Birthday Cupcakes & Chocolates</li>
+                            <li><i class="fa-solid fa-check"></i> Custom Name Tag & Birthday Ribbon</li>
+                            <li><i class="fa-solid fa-check"></i> Keepsake Party Keychain / Toy</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-gold btn-sm btn-block" onclick="loadPreset('Birthday Party', 2850)">Customize Birthday Pack</button>
+                </div>
+            </div>
+
+            <!-- 2. Wedding -->
+            <div class="occasion-card">
+                <div class="occasion-art">
+                    <span class="tag-price">From Rs. 3,600 / pack</span>
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" fill="#FFF9F0"/>
+                        <path d="M32 55c0-10 8-18 18-18s18 8 18 18c0 12-18 25-18 25S32 67 32 55z" fill="#FAD0C4"/>
+                        <path d="M42 45c0-6 5-10 10-10s10 4 10 10c0 7-10 15-10 15S42 52 42 45z" fill="#D4AF37"/>
+                    </svg>
+                </div>
+                <div class="occasion-content">
+                    <div>
+                        <h3>Wedding</h3>
+                        <p>Luxurious monogrammed favor boxes tied with ivory satin ribbons and gold foil initials for your special day.</p>
+                        <ul class="occasion-items-list">
+                            <li><i class="fa-solid fa-check"></i> Artisanal Chocolates & Scented Candle</li>
+                            <li><i class="fa-solid fa-check"></i> Monogram Calligraphy Tag & Gold Foil</li>
+                            <li><i class="fa-solid fa-check"></i> Keepsake Brass / Butterfly Charm</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-gold btn-sm btn-block" onclick="loadPreset('Wedding', 3600)">Customize Wedding Pack</button>
+                </div>
+            </div>
+
+            <!-- 3. Baby Shower -->
+            <div class="occasion-card">
+                <div class="occasion-art">
+                    <span class="tag-price">From Rs. 3,080 / pack</span>
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" fill="#FFF9F0"/>
+                        <circle cx="45" cy="48" r="18" stroke="#E8D5C4" stroke-width="4"/>
+                        <circle cx="38" cy="68" r="6" fill="#D4AF37"/>
+                        <circle cx="58" cy="68" r="6" fill="#D4AF37"/>
+                        <path d="M63 48h10v10" stroke="#E8D5C4" stroke-width="4"/>
+                    </svg>
+                </div>
+                <div class="occasion-content">
+                    <div>
+                        <h3>Baby Shower</h3>
+                        <p>Charming stroller-themed boxes in blush pink or lavender mist to welcome your new arrival.</p>
+                        <ul class="occasion-items-list">
+                            <li><i class="fa-solid fa-check"></i> Pastel Macarons & Almond Sweets</li>
+                            <li><i class="fa-solid fa-check"></i> Baby Stroller Charm & Bow Accent</li>
+                            <li><i class="fa-solid fa-check"></i> Custom Welcome Note Tag</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-gold btn-sm btn-block" onclick="loadPreset('Baby Shower', 3080)">Customize Baby Shower Pack</button>
+                </div>
+            </div>
+
+            <!-- 4. Graduation -->
+            <div class="occasion-card">
+                <div class="occasion-art">
+                    <span class="tag-price">From Rs. 3,300 / pack</span>
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" fill="#FFF9F0"/>
+                        <path d="M50 28L20 42l30 14 30-14L50 28z" fill="#4A3E3D"/>
+                        <path d="M32 50v18c0 5 8 9 18 9s18-4 18-9V50" stroke="#D4AF37" stroke-width="3"/>
+                        <path d="M72 44v22" stroke="#D4AF37" stroke-width="2"/>
+                        <circle cx="72" cy="68" r="3" fill="#D4AF37"/>
+                    </svg>
+                </div>
+                <div class="occasion-content">
+                    <div>
+                        <h3>Graduation</h3>
+                        <p>Commencement cap favor containers adorned with celebratory tassels and motivational tags.</p>
+                        <ul class="occasion-items-list">
+                            <li><i class="fa-solid fa-check"></i> Gourmet Truffles & Custom Cookies</li>
+                            <li><i class="fa-solid fa-check"></i> Graduation Cap Tassel Tag</li>
+                            <li><i class="fa-solid fa-check"></i> Scroll Keepsake Certificate Holder</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-gold btn-sm btn-block" onclick="loadPreset('Graduation', 3300)">Customize Graduation Pack</button>
+                </div>
+            </div>
+
+            <!-- 5. Corporate Event -->
+            <div class="occasion-card">
+                <div class="occasion-art">
+                    <span class="tag-price">From Rs. 4,050 / pack</span>
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" fill="#FFF9F0"/>
+                        <rect x="25" y="32" width="50" height="38" rx="5" fill="#4A3E3D"/>
+                        <path d="M40 32v-6c0-2 2-4 4-4h12c2 0 4 2 4 4v6" stroke="#D4AF37" stroke-width="3"/>
+                        <path d="M25 48h50" stroke="#D4AF37" stroke-width="2"/>
+                    </svg>
+                </div>
+                <div class="occasion-content">
+                    <div>
+                        <h3>Corporate Event</h3>
+                        <p>Sophisticated executive favor boxes branded with company logos, premium teas, and business tokens.</p>
+                        <ul class="occasion-items-list">
+                            <li><i class="fa-solid fa-check"></i> Ceylon Premium Tea & Artisanal Cookies</li>
+                            <li><i class="fa-solid fa-check"></i> Custom Metallic Logo Tag & Ribbon</li>
+                            <li><i class="fa-solid fa-check"></i> Executive Leatherette Keyring</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-gold btn-sm btn-block" onclick="loadPreset('Corporate Event', 4050)">Customize Corporate Pack</button>
+                </div>
+            </div>
+
+            <!-- 6. Anniversary -->
+            <div class="occasion-card">
+                <div class="occasion-art">
+                    <span class="tag-price">From Rs. 3,520 / pack</span>
+                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="50" cy="50" r="42" fill="#FFF9F0"/>
+                        <circle cx="42" cy="50" r="16" stroke="#D4AF37" stroke-width="4"/>
+                        <circle cx="58" cy="50" r="16" stroke="#FAD0C4" stroke-width="4"/>
+                        <path d="M50 30l3-5h-6l3 5z" fill="#D4AF37"/>
+                    </svg>
+                </div>
+                <div class="occasion-content">
+                    <div>
+                        <h3>Anniversary</h3>
+                        <p>Romantic gold-accented favor boxes celebrating milestone years of love and togetherness.</p>
+                        <ul class="occasion-items-list">
+                            <li><i class="fa-solid fa-check"></i> Handcrafted Pralines & Rose Candles</li>
+                            <li><i class="fa-solid fa-check"></i> Gold Foil Anniversary Date Tag</li>
+                            <li><i class="fa-solid fa-check"></i> Love Lock / Heart Keepsake</li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-gold btn-sm btn-block" onclick="loadPreset('Anniversary', 3520)">Customize Anniversary Pack</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Interactive Customizer Studio Section -->
+    <section class="builder-section" id="builder">
+        <h2 class="section-title">Interactive Design Studio</h2>
+        <p class="section-subtitle">Customize items, pastel colors, guest counts, and personalizations in real time</p>
+
+        <div class="builder-container">
+            <!-- Customizer Controls -->
+            <div class="builder-controls">
+                
+                <!-- 1. Occasion Selection -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-num">1</span>
+                        <h3>Select Event Occasion</h3>
+                    </div>
+                    <div class="option-grid">
+                        <div class="option-box active" onclick="setOccasion('Wedding', 1600, this)">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Wedding</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">Rs. 1,600 base</small>
+                        </div>
+                        <div class="option-box" onclick="setOccasion('Birthday Party', 1200, this)">
+                            <i class="fa-solid fa-cake-candles"></i>
+                            <span>Birthday</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">Rs. 1,200 base</small>
+                        </div>
+                        <div class="option-box" onclick="setOccasion('Baby Shower', 1300, this)">
+                            <i class="fa-solid fa-baby"></i>
+                            <span>Baby Shower</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">Rs. 1,300 base</small>
+                        </div>
+                        <div class="option-box" onclick="setOccasion('Graduation', 1450, this)">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>Graduation</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">Rs. 1,450 base</small>
+                        </div>
+                        <div class="option-box" onclick="setOccasion('Corporate Event', 1800, this)">
+                            <i class="fa-solid fa-briefcase"></i>
+                            <span>Corporate</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">Rs. 1,800 base</small>
+                        </div>
+                        <div class="option-box" onclick="setOccasion('Anniversary', 1550, this)">
+                            <i class="fa-solid fa-rings-wedding"></i>
+                            <span>Anniversary</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">Rs. 1,550 base</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. Pastel Palette & Finish -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-num">2</span>
+                        <h3>Box Color & Ribbon Theme</h3>
+                    </div>
+                    <div class="option-grid">
+                        <div class="option-box active" onclick="setColor('Blush Pink & Gold', '#FAD0C4', 250, this)">
+                            <div class="color-swatch" style="background:#FAD0C4;"></div>
+                            <span>Blush Pink</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">+Rs. 250</small>
+                        </div>
+                        <div class="option-box" onclick="setColor('Ivory Cream & Gold', '#FFF9F0', 350, this)">
+                            <div class="color-swatch" style="background:#FFF9F0; border:1px solid #CCC;"></div>
+                            <span>Cream Gold</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">+Rs. 350</small>
+                        </div>
+                        <div class="option-box" onclick="setColor('Lavender Mist', '#E8D5C4', 300, this)">
+                            <div class="color-swatch" style="background:#E8D5C4;"></div>
+                            <span>Lavender</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">+Rs. 300</small>
+                        </div>
+                        <div class="option-box" onclick="setColor('Soft Peach Ribbon', '#FFD1DC', 280, this)">
+                            <div class="color-swatch" style="background:#FFD1DC;"></div>
+                            <span>Soft Peach</span>
+                            <small style="display:block; font-size:0.75rem; color:var(--light-text);">+Rs. 280</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Pack Content Items -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-num">3</span>
+                        <h3>Select Pack Contents</h3>
+                    </div>
+                    <div class="option-grid">
+                        <div class="option-box active" onclick="toggleFiller('Gourmet Chocolates', 750, this)">
+                            <i class="fa-solid fa-cookie"></i>
+                            <span>Chocolates</span>
+                            <small>+Rs. 750</small>
+                        </div>
+                        <div class="option-box active" onclick="toggleFiller('Butterfly Charm Keyring', 1000, this)">
+                            <i class="fa-solid fa-bug"></i>
+                            <span>Butterfly Charm</span>
+                            <small>+Rs. 1,000</small>
+                        </div>
+                        <div class="option-box" onclick="toggleFiller('Custom Floral Calligraphy Tag', 300, this)">
+                            <i class="fa-solid fa-tag"></i>
+                            <span>Floral Tag</span>
+                            <small>+Rs. 300</small>
+                        </div>
+                        <div class="option-box" onclick="toggleFiller('Scented Soy Candle Pot', 1250, this)">
+                            <i class="fa-solid fa-fire"></i>
+                            <span>Mini Candle</span>
+                            <small>+Rs. 1,250</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Guest & Budget Calculator -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-num">4</span>
+                        <h3>Guest Calculator & Budget Builder</h3>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="guestInput">Total Guest Count:</label>
+                            <input type="number" id="guestInput" value="50" min="1" class="form-control" oninput="updateCalculations()">
+                        </div>
+                        <div class="form-group">
+                            <label for="budgetInput">Target Budget (Rs.):</label>
+                            <input type="number" id="budgetInput" value="180000" step="5000" min="10000" class="form-control" oninput="checkBudgetStatus()">
+                        </div>
+                    </div>
+                    <button class="btn btn-outline btn-block" style="margin-top:12px;" onclick="autoRecommendBudget()">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i> Auto-Fit Selection to Target Budget
+                    </button>
+                </div>
+
+                <!-- 5. Personalization Details -->
+                <div class="step-card">
+                    <div class="step-header">
+                        <span class="step-num">5</span>
+                        <h3>Personalization Details</h3>
+                    </div>
+                    <div class="form-group">
+                        <label for="hostNames">Host / Couple Names:</label>
+                        <input type="text" id="hostNames" value="Lakshan & Anjali" class="form-control" oninput="updatePreviewText()">
+                    </div>
+                    <div class="form-group" style="margin-top:10px;">
+                        <label for="eventDate">Event Date / Personalized Note:</label>
+                        <input type="text" id="eventDate" value="04th October 2026 • Colombo" class="form-control" oninput="updatePreviewText()">
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Sticky Live Preview & Price Calculator Sidebar -->
+            <div class="preview-sidebar">
+                <div class="preview-card">
+                    <h3>Live Visual Preview</h3>
+                    <div class="box-render" id="boxPreview">
+                        <h4 id="prevTitle">Wedding Favor Box</h4>
+                        <div class="monogram" id="prevMonogram">Lakshan & Anjali</div>
+                        <div class="date-tag" id="prevDate">04th October 2026 • Colombo</div>
+                        <div class="color-badge" id="prevColorLabel">Blush Pink & Gold</div>
+                    </div>
+
+                    <div class="summary-details">
+                        <h3>Automated Price Breakdown</h3>
+                        <div class="summary-row">
+                            <span>Base Box Cost:</span>
+                            <span id="baseCostDisplay">Rs. 1,600</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Palette & Ribbon:</span>
+                            <span id="colorCostDisplay">Rs. 250</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Contents Subtotal:</span>
+                            <span id="fillersCostDisplay">Rs. 1,750</span>
+                        </div>
+                        <div class="summary-row">
+                            <span>Price Per Unit:</span>
+                            <strong id="unitPriceDisplay">Rs. 3,600</strong>
+                        </div>
+                        <div class="summary-row">
+                            <span>Guest Quantity:</span>
+                            <span id="guestCountDisplay">50 Packs</span>
+                        </div>
+                        <div class="summary-row discount" id="discountRow">
+                            <span>Volume Discount (5%):</span>
+                            <span id="discountDisplay">-Rs. 9,000</span>
+                        </div>
+                        <div class="summary-row total">
+                            <span>Estimated Total:</span>
+                            <span id="grandTotalDisplay">Rs. 171,000</span>
+                        </div>
+                        <div class="budget-alert" id="budgetAlert">
+                            <i class="fa-solid fa-circle-check"></i> Within your Rs. 180,000 budget target!
+                        </div>
+                    </div>
+
+                    <button class="btn btn-gold btn-block" onclick="submitOrder()">
+                        <i class="fa-solid fa-paper-plane"></i> Submit Order for Delivery
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Boutique Brand Story (About Us) -->
+    <section class="about-section" id="about">
+        <div class="about-card">
+            <h2>Our Craft & Studio Story</h2>
+            <p>At <strong>Party Pack Creator</strong>, we believe every guest should leave your celebration holding a token of true appreciation. Based in Colombo, Sri Lanka, our boutique design studio replaces uninspired, off-the-shelf party favors with fully customizable favor box experiences.</p>
+            
+            <div class="story-highlights">
+                <div class="story-item">
+                    <h4><i class="fa-solid fa-gem" style="color:var(--gold);"></i> Handcrafted Quality</h4>
+                    <p>Every box is folded from premium textured board and hand-assembled with satin ribbon ties and custom foil monograms.</p>
+                </div>
+                <div class="story-item">
+                    <h4><i class="fa-solid fa-sliders" style="color:var(--gold);"></i> Transparent Pricing</h4>
+                    <p>Our real-time price calculator and budget builder ensure complete cost transparency with no surprise setup fees.</p>
+                </div>
+                <div class="story-item">
+                    <h4><i class="fa-solid fa-truck-fast" style="color:var(--gold);"></i> Islandwide Delivery</h4>
+                    <p>We safely package and dispatch orders across Colombo, Kandy, Galle, and all 25 districts in Sri Lanka.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Orders & Live Tracking -->
+    <section class="orders-section" id="orders">
+        <h2 class="section-title">My Orders & Studio Tracking</h2>
+        <p class="section-subtitle">Monitor real-time assembly, quality inspection, and courier dispatch status</p>
+        
+        <div class="order-status-card">
+            <div class="order-header">
+                <div>
+                    <h3>Order #PPC-LK-2026-9812</h3>
+                    <small>Submitted for 50 Wedding Favor Packs • Colombo Delivery</small>
+                </div>
+                <span class="status-pill">In Studio Assembly</span>
+            </div>
+            
+            <div class="tracking-timeline">
+                <div class="track-step completed">
+                    <div class="icon"><i class="fa-solid fa-check"></i></div>
+                    <span>Order Received</span>
+                </div>
+                <div class="track-step active">
+                    <div class="icon"><i class="fa-solid fa-boxes-packing"></i></div>
+                    <span>Studio Assembly</span>
+                </div>
+                <div class="track-step">
+                    <div class="icon"><i class="fa-solid fa-ribbon"></i></div>
+                    <span>Quality Inspection</span>
+                </div>
+                <div class="track-step">
+                    <div class="icon"><i class="fa-solid fa-truck-fast"></i></div>
+                    <span>Islandwide Courier</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Contact Our Colombo Studio</h2>
+        <p class="section-subtitle">Inquire about custom themes, bulk event orders, or schedule a physical sample viewing</p>
+        
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Thank you for reaching out! Our Colombo studio coordinator will contact you shortly via WhatsApp / Phone.');">
+            <div class="form-row">
+                <input type="text" placeholder="Your Full Name" class="form-control" required>
+                <input type="tel" placeholder="Phone / WhatsApp Number (+94)" class="form-control" required>
+            </div>
+            <div class="form-group" style="margin-top:15px;">
+                <input type="email" placeholder="Email Address" class="form-control" required>
+            </div>
+            <div class="form-group" style="margin-top:15px;">
+                <input type="text" placeholder="Delivery Location in Sri Lanka (e.g. Colombo 07, Kandy, Galle)" class="form-control" required>
+            </div>
+            <textarea placeholder="Tell us about your event date, theme preferences, or special requests..." class="form-control" rows="4" style="margin-top:15px;" required></textarea>
+            <button type="submit" class="btn btn-gold" style="margin-top:15px;">Send Inquiry to Studio</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <h3><i class="fa-solid fa-gift"></i> Party Pack Creator</h3>
+                <p>Bespoke Custom Party Pack Design & Islandwide Delivery Studio in Sri Lanka.</p>
+                <p><i class="fa-solid fa-location-dot" style="color:var(--gold);"></i> No. 42, Cinnamon Gardens Promenade, Colombo 07, Sri Lanka</p>
+                <p><i class="fa-solid fa-phone" style="color:var(--gold);"></i> Hotline / WhatsApp: +94 11 234 5678 | +94 77 123 4567</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#occasions">Occasions Gallery</a></li>
+                    <li><a href="#builder">Pack Customizer</a></li>
+                    <li><a href="#about">Our Craft Story</a></li>
+                    <li><a href="#orders">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Care</h4>
+                <ul>
+                    <li><strong>Islandwide Courier:</strong> 2-4 Business Days</li>
+                    <li><strong>Colombo Express:</strong> Same Day Dispatch Available</li>
+                    <li><strong>Studio Hours:</strong> Mon - Sat: 9:00 AM - 6:30 PM</li>
+                    <li><strong>Payment Modes:</strong> Bank Transfer, Koko, Cards</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Party Pack Creator Sri Lanka. All Rights Reserved. Crafted with care for special celebrations.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive JavaScript Application Code -->
+    <script src="script.js"></script>
+</body>
+</html>
